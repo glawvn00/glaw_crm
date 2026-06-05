@@ -1,0 +1,168 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "autoincrement",
+ "creation": "2026-06-05 00:00:00.000000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ten_chu_ky",
+  "co_hoi_lap_lai",
+  "cong_ty",
+  "nguoi_lien_he",
+  "section_break_1",
+  "dich_vu",
+  "tinh_trang",
+  "thang_chu_ky",
+  "nam_chu_ky",
+  "section_break_2",
+  "nguoi_phu_trach",
+  "nguoi_tao",
+  "ngay_tao",
+  "mo_ta"
+ ],
+ "fields": [
+  {
+   "fieldname": "ten_chu_ky",
+   "fieldtype": "Data",
+   "label": "Tên chu kỳ",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "co_hoi_lap_lai",
+   "fieldtype": "Link",
+   "label": "Cơ hội lặp lại",
+   "options": "GLAW Recurring Opportunity",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "cong_ty",
+   "fieldtype": "Link",
+   "label": "Công ty",
+   "options": "CRM Lead",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "nguoi_lien_he",
+   "fieldtype": "Link",
+   "label": "Người liên hệ",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Thông tin"
+  },
+  {
+   "fieldname": "dich_vu",
+   "fieldtype": "Link",
+   "label": "Dịch vụ",
+   "options": "GLAW Service",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "tinh_trang",
+   "fieldtype": "Select",
+   "label": "Tình trạng",
+   "options": "Mới\nĐang xử lý\nHoàn thành\nHủy",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "thang_chu_ky",
+   "fieldtype": "Int",
+   "label": "Tháng chu kỳ"
+  },
+  {
+   "fieldname": "nam_chu_ky",
+   "fieldtype": "Int",
+   "label": "Năm chu kỳ"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Người phụ trách"
+  },
+  {
+   "fieldname": "nguoi_phu_trach",
+   "fieldtype": "Link",
+   "label": "Người phụ trách",
+   "options": "User",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "nguoi_tao",
+   "fieldtype": "Link",
+   "label": "Người tạo",
+   "options": "User"
+  },
+  {
+   "fieldname": "ngay_tao",
+   "fieldtype": "Date",
+   "label": "Ngày tạo"
+  },
+  {
+   "fieldname": "mo_ta",
+   "fieldtype": "Text Editor",
+   "label": "Mô tả"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_child_table": 0,
+ "links": [],
+ "modified": "2026-06-05 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "GLAW CRM",
+ "name": "GLAW Cycle",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

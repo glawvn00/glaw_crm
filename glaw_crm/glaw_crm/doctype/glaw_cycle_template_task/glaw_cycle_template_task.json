@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_import": 0,
+ "autoname": "autoincrement",
+ "creation": "2026-06-05 00:00:00.000000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "loai_cong_viec",
+  "ten_cong_viec",
+  "nguoi_phu_trach"
+ ],
+ "fields": [
+  {
+   "fieldname": "ten_cong_viec",
+   "fieldtype": "Data",
+   "label": "Tên công việc",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "loai_cong_viec",
+   "fieldtype": "Select",
+   "label": "Loại công việc",
+   "options": "Hành chính\nKỹ thuật\nTư vấn\nKhác",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "nguoi_phu_trach",
+   "fieldtype": "Link",
+   "label": "Người phụ trách",
+   "options": "User",
+   "in_list_view": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_child_table": 1,
+ "links": [],
+ "modified": "2026-06-05 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "GLAW CRM",
+ "name": "GLAW Cycle Template Task",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

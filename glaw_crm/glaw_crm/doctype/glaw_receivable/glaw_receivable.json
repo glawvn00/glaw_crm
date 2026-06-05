@@ -1,0 +1,221 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "autoincrement",
+ "creation": "2026-06-05 00:00:00.000000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ma_cong_no",
+  "loai_cong_no",
+  "tinh_trang",
+  "ma_khach_hang",
+  "co_hoi",
+  "cong_ty",
+  "nguoi_lien_he",
+  "bao_gia",
+  "chu_ky",
+  "section_break_1",
+  "so_tien",
+  "dich_vu",
+  "loai_dich_vu",
+  "vat",
+  "tien_vat",
+  "section_break_2",
+  "ten_doi_tac",
+  "hoa_hong_doi_tac",
+  "section_break_3",
+  "note",
+  "nguoi_tao",
+  "ngay_tao"
+ ],
+ "fields": [
+  {
+   "fieldname": "ma_cong_no",
+   "fieldtype": "Data",
+   "label": "Mã công nợ",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "loai_cong_no",
+   "fieldtype": "Select",
+   "label": "Loại công nợ",
+   "options": "Phải thu\nPhải trả",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "tinh_trang",
+   "fieldtype": "Select",
+   "label": "Tình trạng",
+   "options": "Chưa thanh toán\nĐã thanh toán một phần\nĐã thanh toán\nHủy",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "ma_khach_hang",
+   "fieldtype": "Data",
+   "label": "Mã khách hàng"
+  },
+  {
+   "fieldname": "co_hoi",
+   "fieldtype": "Link",
+   "label": "Cơ hội",
+   "options": "GLAW Opportunity",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "cong_ty",
+   "fieldtype": "Link",
+   "label": "Công ty",
+   "options": "CRM Lead",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "nguoi_lien_he",
+   "fieldtype": "Link",
+   "label": "Người liên hệ",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "bao_gia",
+   "fieldtype": "Link",
+   "label": "Báo giá",
+   "options": "GLAW Quotation",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "chu_ky",
+   "fieldtype": "Link",
+   "label": "Chu kỳ",
+   "options": "GLAW Cycle",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Chi tiết tài chính"
+  },
+  {
+   "fieldname": "so_tien",
+   "fieldtype": "Currency",
+   "label": "Số tiền",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "dich_vu",
+   "fieldtype": "Link",
+   "label": "Dịch vụ",
+   "options": "GLAW Service"
+  },
+  {
+   "fieldname": "loai_dich_vu",
+   "fieldtype": "Link",
+   "label": "Loại dịch vụ",
+   "options": "GLAW Service Category"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Float",
+   "label": "VAT (%)"
+  },
+  {
+   "fieldname": "tien_vat",
+   "fieldtype": "Currency",
+   "label": "Tiền VAT"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Đối tác"
+  },
+  {
+   "fieldname": "ten_doi_tac",
+   "fieldtype": "Data",
+   "label": "Tên đối tác"
+  },
+  {
+   "fieldname": "hoa_hong_doi_tac",
+   "fieldtype": "Currency",
+   "label": "Hoa hồng đối tác"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break",
+   "label": "Ghi chú"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "nguoi_tao",
+   "fieldtype": "Link",
+   "label": "Người tạo",
+   "options": "User"
+  },
+  {
+   "fieldname": "ngay_tao",
+   "fieldtype": "Date",
+   "label": "Ngày tạo",
+   "in_list_view": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_child_table": 0,
+ "links": [],
+ "modified": "2026-06-05 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "GLAW CRM",
+ "name": "GLAW Receivable",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
