@@ -1,0 +1,131 @@
+{
+ "doctype": "Workspace",
+ "name": "GLAW CRM",
+ "title": "GLAW CRM",
+ "module": "GLAW CRM",
+ "is_standard": 1,
+ "public": 1,
+ "content": "[{\"type\": \"card\", \"data\": {\"card_name\": \"Quy tr\\u00ecnh\", \"col\": 4, \"hide_title\": 0, \"links\": [{\"label\": \"C\\u01a1 h\\u1ed9i\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Opportunity\", \"onboard\": 1}, {\"label\": \"C\\u01a1 h\\u1ed9i l\\u1eb7p l\\u1ea1i\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Recurring Opportunity\", \"onboard\": 1}, {\"label\": \"Chu k\\u1ef3\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Cycle\", \"onboard\": 1}]}}, {\"type\": \"card\", \"data\": {\"card_name\": \"T\\u00e0i ch\\u00ednh\", \"col\": 4, \"hide_title\": 0, \"links\": [{\"label\": \"B\\u00e1o gi\\u00e1\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Quotation\", \"onboard\": 1}, {\"label\": \"Thanh to\\u00e1n\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Payment\", \"onboard\": 1}, {\"label\": \"C\\u00f4ng n\\u1ee3\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Receivable\", \"onboard\": 1}, {\"label\": \"Hoa h\\u1ed3ng \\u0111\\u1ed1i t\\u00e1c\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Partner Commission\", \"onboard\": 0}]}}, {\"type\": \"card\", \"data\": {\"card_name\": \"C\\u00f4ng vi\\u1ec7c\", \"col\": 4, \"hide_title\": 0, \"links\": [{\"label\": \"Task\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Task\", \"onboard\": 1}, {\"label\": \"\\u0110\\u00e1nh gi\\u00e1 Task\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Task Review\", \"onboard\": 0}, {\"label\": \"Ho\\u1ea1t \\u0111\\u1ed9ng\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Activity\", \"onboard\": 1}, {\"label\": \"Remind\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Reminder\", \"onboard\": 1}]}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Danh m\\u1ee5c\", \"col\": 4, \"hide_title\": 0, \"links\": [{\"label\": \"Ngu\\u1ed3n\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Source\", \"onboard\": 1}, {\"label\": \"D\\u1ecbch v\\u1ee5\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Service\", \"onboard\": 1}, {\"label\": \"Lo\\u1ea1i d\\u1ecbch v\\u1ee5\", \"type\": \"Link\", \"link_type\": \"DocType\", \"link_to\": \"GLAW Service Category\", \"onboard\": 1}]}}]",
+ "links": [
+  {
+   "type": "Card Break",
+   "label": "Quy trình",
+   "link_type": "",
+   "link_to": ""
+  },
+  {
+   "type": "Link",
+   "label": "Cơ hội",
+   "link_type": "DocType",
+   "link_to": "GLAW Opportunity",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Cơ hội lặp lại",
+   "link_type": "DocType",
+   "link_to": "GLAW Recurring Opportunity",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Chu kỳ",
+   "link_type": "DocType",
+   "link_to": "GLAW Cycle",
+   "onboard": 1
+  },
+  {
+   "type": "Card Break",
+   "label": "Tài chính",
+   "link_type": "",
+   "link_to": ""
+  },
+  {
+   "type": "Link",
+   "label": "Báo giá",
+   "link_type": "DocType",
+   "link_to": "GLAW Quotation",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Thanh toán",
+   "link_type": "DocType",
+   "link_to": "GLAW Payment",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Công nợ",
+   "link_type": "DocType",
+   "link_to": "GLAW Receivable",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Hoa hồng đối tác",
+   "link_type": "DocType",
+   "link_to": "GLAW Partner Commission"
+  },
+  {
+   "type": "Card Break",
+   "label": "Công việc",
+   "link_type": "",
+   "link_to": ""
+  },
+  {
+   "type": "Link",
+   "label": "Task",
+   "link_type": "DocType",
+   "link_to": "GLAW Task",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Đánh giá Task",
+   "link_type": "DocType",
+   "link_to": "GLAW Task Review"
+  },
+  {
+   "type": "Link",
+   "label": "Hoạt động",
+   "link_type": "DocType",
+   "link_to": "GLAW Activity",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Remind",
+   "link_type": "DocType",
+   "link_to": "GLAW Reminder",
+   "onboard": 1
+  },
+  {
+   "type": "Card Break",
+   "label": "Danh mục",
+   "link_type": "",
+   "link_to": ""
+  },
+  {
+   "type": "Link",
+   "label": "Nguồn",
+   "link_type": "DocType",
+   "link_to": "GLAW Source",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Dịch vụ",
+   "link_type": "DocType",
+   "link_to": "GLAW Service",
+   "onboard": 1
+  },
+  {
+   "type": "Link",
+   "label": "Loại dịch vụ",
+   "link_type": "DocType",
+   "link_to": "GLAW Service Category",
+   "onboard": 1
+  }
+ ]
+}
