@@ -36,22 +36,8 @@ jobs:
 
       - name: Create apps.json
         run: |
-          cat > frappe_docker/apps.json << 'EOF'
-          [
-            {
-              "url": "https://github.com/frappe/hrms",
-              "branch": "version-16"
-            },
-            {
-              "url": "https://github.com/frappe/crm",
-              "branch": "main"
-            },
-            {
-              "url": "https://github.com/glawvn00/glaw_crm",
-              "branch": "main"
-            }
-          ]
-          EOF
+          echo '${{ secrets.APPS_JSON }}' > frappe_docker/apps.json
+          cat frappe_docker/apps.json
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
